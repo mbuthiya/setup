@@ -36,7 +36,7 @@ sudo apt install vlc
 
 # Installing Git
 sudo apt-get update
-sudo apt-get install git-all
+sudo apt-get install git
 
 # git setup
 git config --global user.name "James Muriuki"
