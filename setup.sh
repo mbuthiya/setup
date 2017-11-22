@@ -39,16 +39,15 @@ sudo apt-get update
 sudo apt-get install git
 
 # git setup
-git config --global user.name "James Muriuki"
-git config --global user.email jamesmuriukimbuthia@gmail.com
+git config --global user.name $1
+git config --global user.email $2
 
 
 #  Install chrome
 sudo apt-get update
 sudo apt-get install chromium-browser
 
-#  Setup repo for atom
-sudo add-apt-repository ppa:webupd8team/atom
+#  Setup repo for atom sudo add-apt-repository ppa:webupd8team/atom
 
 # Install atom
 sudo apt update
